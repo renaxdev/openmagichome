@@ -31,8 +31,9 @@ class Light:
     def print_address(self):
         print(self.ledaddress)
 
-    def check_connection(self):
-        r = requests.get(f"http://{self.serveraddress}")
+    def discover(self):
+        r = requests.get(f"http://{self.serveraddress}/discover").json()["clients"][0]["address"]
+        print(r)      
       
     def setColor(self, r , g , b):            
         self.rgb = {

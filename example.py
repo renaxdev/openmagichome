@@ -1,15 +1,11 @@
 import requests
 import json
-from payloads import Light
+from module import Light
 import time
 
 
-led = Light("192.168.1.45", "192.168.1.49:4040")
-
-led.print_address()
-
-led.state(1)
-
+led = Light("0.0.0.0", "192.168.1.49:4040")
+led.discover()
 
 
 
