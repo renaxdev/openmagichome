@@ -1,5 +1,6 @@
 import requests
 
+
 class Light:
     def __init__(self, ledaddress, serveraddress):
         self.ledaddress = ledaddress
