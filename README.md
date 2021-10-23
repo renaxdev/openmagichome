@@ -1,4 +1,6 @@
 # openmagichome
+![icon](https://user-images.githubusercontent.com/72433516/138558783-18150be5-7483-46da-aeac-1d402874640b.png)
+
 A Python Inplementation for Controlling Magic Home LED Controllers
 
 ### How to use:
